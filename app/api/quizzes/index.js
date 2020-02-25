@@ -6,7 +6,7 @@ const QuestionRouter = require('./questions')
 
 const router = new Router()
 
-router.use('/:quizId/question', QuestionRouter)
+router.use('/:quizId/questions', QuestionRouter)
 
 router.get('/', (req, res) => {
   try {
